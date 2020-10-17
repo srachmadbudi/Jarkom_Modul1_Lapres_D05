@@ -31,3 +31,33 @@ Persembahan kelompok D05
 Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 
 _**Langkah:**_
+
+
+### Nomor 12
+ _**Soal:**_\
+Filter sehingga Wireshark hanya mengambil paket yang berasal dari port 80!
+
+_**Langkah:**_
+1. Buka Wireshark, 
+2. tuliskan "port 80" pada capture filter, enter
+![Capture](https://user-images.githubusercontent.com/57980671/96333313-4e9bc380-1093-11eb-9814-51d3fb5c6c9d.PNG)
+
+### Nomor 13
+ _**Soal:**_\
+Filter sehingga Wireshark hanya menampilkan paket yang menuju port 443!
+
+_**Langkah:**_
+
+### Nomor 14
+ _**Soal:**_\
+Filter sehingga Wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+
+### Nomor 15
+ _**Soal:**_\
+Filter sehingga Wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+_**Langkah:**_
+
+
+
