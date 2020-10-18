@@ -38,6 +38,8 @@ _**Langkah:**_
 Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 
 _**Langkah:**_
+
+revisi:
 1. akses laman "aku.pengen.pw"
 
 ![image](https://user-images.githubusercontent.com/57980671/96356982-cc0d1580-111f-11eb-8c92-af9bb3198597.png)
