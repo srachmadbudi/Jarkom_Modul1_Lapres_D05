@@ -37,6 +37,7 @@ _**Langkah:**_
 2. Melakukan follow TCP Stream. Didapatkan hasil webserver yaitu Nginx/1.14.0 (Ubuntu)
 ![Screen Shot 2020-10-18 at 10 59 01](https://user-images.githubusercontent.com/57314114/96358529-58c0cf00-1132-11eb-95ca-89288dea7c1d.png)
 
+![Screen Shot 2020-10-18 at 10 59 15](https://user-images.githubusercontent.com/57314114/96358538-73934380-1132-11eb-8a8a-44f5ee74e822.png)
 
 
 ### Nomor 2
