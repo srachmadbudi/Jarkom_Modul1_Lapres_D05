@@ -33,18 +33,62 @@ Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 _**Langkah:**_
 
 
+### Nomor 5
+ _**Soal:**_\
+Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
+
+_**Langkah:**_
+1. akses laman "aku.pengen.pw"
+
+![image](https://user-images.githubusercontent.com/57980671/96356982-cc0d1580-111f-11eb-8c92-af9bb3198597.png)
+
+2. gunakan http.host contains "aku.pengen.pw"
+
+![image](https://user-images.githubusercontent.com/57980671/96357025-345bf700-1120-11eb-977b-27ca800071a3.png)
+
+3. cari paket yg mengandung "Authorization"
+
+![image](https://user-images.githubusercontent.com/57980671/96357039-653c2c00-1120-11eb-8b11-924502d659d3.png)
+
+4. expand, lalu didapatkan id dan pw untuk masuk ke laman tersebut
+
+![image](https://user-images.githubusercontent.com/57980671/96357052-800ea080-1120-11eb-80f0-ca5f308dabbd.png)
+
+5. Jawaban: 
+
+![akupengenpw](https://user-images.githubusercontent.com/57980671/96357072-b9dfa700-1120-11eb-8db1-88dc888506fa.png)
+
 ### Nomor 6, 7, 9
 
 untuk nomor 6 , 7, 9 saya memiliki kendala, saya tidak tahu apakah ini normal atau error
 
 ![image](https://user-images.githubusercontent.com/57980671/96355858-18048e00-1111-11eb-8eee-b4f58a8ff722.png)
 
+### Nomor 11
+ _**Soal:**_\
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+_**Langkah:**_
+
+revisi:
+tcp port == 21 || udp port == 21
+
+![image](https://user-images.githubusercontent.com/57980671/96356944-6a4cab80-111f-11eb-96a7-44ee5e7da298.png)
 
 ### Nomor 12
  _**Soal:**_\
 Filter sehingga Wireshark hanya mengambil paket yang berasal dari port 80!
 
+_**Langkah:**_
+1. tcp.port == 80 || udp.port == 80
+
 ![Capture](https://user-images.githubusercontent.com/57980671/96333313-4e9bc380-1093-11eb-9814-51d3fb5c6c9d.PNG)
+
+revisi:
+1. tcp src port == 80 || udp src port == 80
+
+![image](https://user-images.githubusercontent.com/57980671/96356885-d4188580-111e-11eb-8233-18a9188b9f54.png)
+
 
 ### Nomor 13
  _**Soal:**_\
