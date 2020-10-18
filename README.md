@@ -58,18 +58,28 @@ _**Langkah:**_
 
 ### Nomor 3
  _**Soal:**_\
-
+Cari username dan password ketika login di "ppid.dpr.go.id"!
 
 _**Langkah:**_
+1. Filter `http.request.method == POST`
+![Screen Shot 2020-10-18 at 11 18 42](https://user-images.githubusercontent.com/57314114/96358647-bbff3100-1133-11eb-8eb5-48868e21b9c3.png)
 
+2. Pada HTML Form URL Encoded, ditemukan kalau
+    Username: 10pemuda
+    Password: guncangdunia
+![Screen Shot 2020-10-18 at 11 18 47](https://user-images.githubusercontent.com/57314114/96358653-c3bed580-1133-11eb-9dbb-2f3cf19dba37.png)
 
 
 ### Nomor 4
  _**Soal:**_\
-
+Temukan paket dari web-web yang menggunakan basic authentication method!
 
 _**Langkah:**_
+1. Untuk mencari IP Address dari `testing.mekanis.me`, maka melakukan ping
+![Screen Shot 2020-10-18 at 11 23 44](https://user-images.githubusercontent.com/57314114/96358726-ac341c80-1134-11eb-8530-e9260a5c038b.png)
 
+2. Kemudian untuk mengetahui komunikasi dari `testing.mekanis.me` saja, maka filter komunikasi dari IP 157.245.50.224, dengan cara `ip.addr == 157.245.50.224`. Untuk mengetahui paket _basic authentication method_ saja, maka digunakan filter `http.authbasic`. Sehingga, filter yang digunakan yaitu `ip.addr == 157.245.50.224 && http.authbasic`
+![Screen Shot 2020-10-18 at 11 25 18](https://user-images.githubusercontent.com/57314114/96358728-b1916700-1134-11eb-8195-d667dff6b3bb.png)
 
 
 ### Nomor 5
