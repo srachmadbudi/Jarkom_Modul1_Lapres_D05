@@ -31,6 +31,33 @@ Persembahan kelompok D05
 Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 
 _**Langkah:**_
+1. Filter `http.host contains "testing.mekanis.me"`
+
+2. Melakukan follow TCP Stream. Didapatkan hasil webserver yaitu Nginx/1.14.0 (Ubuntu)
+
+
+### Nomor 2
+ _**Soal:**_\
+
+
+_**Langkah:**_
+
+
+
+### Nomor 3
+ _**Soal:**_\
+
+
+_**Langkah:**_
+
+
+
+### Nomor 4
+ _**Soal:**_\
+
+
+_**Langkah:**_
+
 
 
 ### Nomor 5
