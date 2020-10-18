@@ -47,7 +47,13 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 
 _**Langkah:**_
 1. Klik `File` - `Export Objects` - `HHTP`
+![Screen Shot 2020-10-18 at 11 13 11](https://user-images.githubusercontent.com/57314114/96358585-1350d180-1133-11eb-8dbb-b0af076ef249.png)
+
 2. Pada `Text Filter`, masukkan nama file `Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg`. Lalu klik `Save`
+![Screen Shot 2020-10-18 at 11 13 24](https://user-images.githubusercontent.com/57314114/96358588-18158580-1133-11eb-8f83-75c5018cfcce.png)
+
+3. Hasilnya adalah sebagai berikut:
+![Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436](https://user-images.githubusercontent.com/57314114/96358590-1b107600-1133-11eb-8fbf-0fd0c66e753e.jpg)
 
 
 ### Nomor 3
