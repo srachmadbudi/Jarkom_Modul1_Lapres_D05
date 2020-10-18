@@ -205,3 +205,8 @@ revisi:
 4. gunakan ip.dst == ip tersebut
 
 ![image](https://user-images.githubusercontent.com/57980671/96356608-222b8a00-111b-11eb-925c-d7836c89a8e5.png)
+
+revisi 2:
+
+![image](https://user-images.githubusercontent.com/57980671/96363434-9fc4b980-115e-11eb-82a0-91408b6e27b4.png)
+
