@@ -50,11 +50,34 @@ Filter sehingga Wireshark hanya mengambil paket yang berasal dari port 80!
  _**Soal:**_\
 Filter sehingga Wireshark hanya menampilkan paket yang menuju port 443!
 
+_**Langkah:**_
+1. ip.src == ip device
+
 ![13](https://user-images.githubusercontent.com/57980671/96355772-c4457500-110f-11eb-93ff-ca04cc363306.png)
+
+didapatkan paket yang menuju port 443
+
+revisi:
+1. tcp dst port 443 / tcp dst port 443 || udp dst port 443
+
+![image](https://user-images.githubusercontent.com/57980671/96356833-0bd2fd80-111e-11eb-9bc0-64ec45777928.png)
+
+![image](https://user-images.githubusercontent.com/57980671/96356841-3b820580-111e-11eb-80c1-ebca51835276.png)
 
 ### Nomor 14
  _**Soal:**_\
 Filter sehingga Wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+_**Langkah:**_
+1. akses salah satu laman ( e.g. "monta.if.its.ac.id )
+
+![image](https://user-images.githubusercontent.com/57980671/96356517-e17f4100-1119-11eb-8f1e-83b21d7cb5f7.png)
+
+2. gunakan host monta.if.its.ac.id untuk mendapatkan ip device
+
+![ip2](https://user-images.githubusercontent.com/57980671/96356734-36708680-111d-11eb-86a7-966b5f69743d.PNG)
+
+3. gunakan ip.src == ip tersebut
 
 ![14](https://user-images.githubusercontent.com/57980671/96355771-c3acde80-110f-11eb-9443-2f388e3176ba.png)
 
@@ -67,7 +90,7 @@ _**Langkah:**_
 
 ![image](https://user-images.githubusercontent.com/57980671/96356517-e17f4100-1119-11eb-8f1e-83b21d7cb5f7.png)
 
-2. gunakan host monta.if.is.ac.id
+2. gunakan host monta.if.its.ac.id
 
 ![15](https://user-images.githubusercontent.com/57980671/96355770-c27bb180-110f-11eb-86de-babf1f9e3c6b.png)
 
