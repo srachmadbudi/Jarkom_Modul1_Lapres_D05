@@ -62,5 +62,28 @@ Filter sehingga Wireshark hanya mengambil paket yang berasal dari ip kalian!
  _**Soal:**_\
 Filter sehingga Wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
+_**Langkah:**_
+1. akses laman "monta.if.its.ac.id"
+
+![image](https://user-images.githubusercontent.com/57980671/96356517-e17f4100-1119-11eb-8f1e-83b21d7cb5f7.png)
+
+2. gunakan host monta.if.is.ac.id
+
 ![15](https://user-images.githubusercontent.com/57980671/96355770-c27bb180-110f-11eb-86de-babf1f9e3c6b.png)
 
+revisi:
+1. akses laman "monta.if.its.ac.id"
+
+![image](https://user-images.githubusercontent.com/57980671/96356517-e17f4100-1119-11eb-8f1e-83b21d7cb5f7.png)
+
+2. gunakan host monta.if.its.ac.id
+
+![image](https://user-images.githubusercontent.com/57980671/96356585-c3661080-111a-11eb-9708-0291c3328ab2.png)
+
+3. kemudian didapatkan ip dari laman "monta.if.its.ac.id"
+
+![monta](https://user-images.githubusercontent.com/57980671/96356602-fb6d5380-111a-11eb-84da-6420d02ee0ee.PNG)
+
+4. gunakan ip.dst == ip tersebut
+
+![image](https://user-images.githubusercontent.com/57980671/96356608-222b8a00-111b-11eb-925c-d7836c89a8e5.png)
